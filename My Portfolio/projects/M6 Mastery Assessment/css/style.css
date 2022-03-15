@@ -1,0 +1,188 @@
+/*Dependent Class*/
+body.home {
+  background-color: darkgray;
+  min-width: 1080px;
+  max-width: 1500px;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header.cooper {
+  border-style: solid;
+  border-color: rgb(87, 18, 50);
+  border-width: 2px 2px;
+}
+
+h1.title1 {
+  background-color: rgb(77, 113, 150);
+  text-align: center;
+  line-height: 75px;
+  color: rgb(92, 35, 35);
+  border-style: double;
+  border-width: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+h2.messy {
+  background-color: rgb(18, 38, 58);
+  text-align: center;
+  line-height: 42px;
+  font-size: 28px;
+  color: rgb(233, 220, 220);
+  border-color: rgb(92, 35, 35);
+  border-style: double;
+  border-width: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+p.subtitle1 {
+  background-color: rgb(18, 38, 58);
+  text-align: center;
+  line-height: 42px;
+  font-size: 38px;
+  color: rgb(233, 220, 220);
+  border-color: rgb(92, 35, 35);
+  border-style: double;
+  border-width: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.img {
+  text-align: center;
+}
+
+h3.messy2 {
+  text-align: center;
+  color: rgb(58, 54, 52);
+  font-size: 50px;
+}
+
+/* --------- Navigation ---------- */
+
+.flex-container {
+  color: rgb(58, 54, 52);
+  font-size: 21px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a:link {
+  background-color: rgb(46, 82, 114);
+}
+nav a:visited {
+  color: aliceblue;
+}
+
+nav a:hover {
+  background-color: rgb(58, 42, 42);
+}
+
+nav a:focus {
+  background-color: rgb(18, 80, 16);
+}
+
+nav a:active {
+  background-color: rgb(37, 46, 126);
+}
+
+nav ul li {
+  border: none;
+  padding: 15px 30px;
+  display: inline-block;
+}
+/* ---------- End Navagation ---------- */
+
+/* ContactUs */
+
+form {
+  /* color: rgb(8, 46, 85); */
+  margin-left: 32%;
+  margin-right: 40%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  list-style-type: none;
+  padding: 20px;
+  box-sizing: content-box;
+  width: 35%;
+}
+
+.contact {
+  text-align: center;
+  color: rgb(87, 18, 50);
+  font-size: 32px;
+}
+
+.order {
+  text-align: center;
+}
+
+Label {
+  display: inline-block;
+  text-align: left;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"] {
+  width: 75%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: 5%;
+}
+
+input:valid {
+  border: 2px solid rgb(40, 46, 40);
+}
+
+input:invalid {
+  border: 2px dashed rgb(59, 40, 40);
+}
+
+fieldset {
+  border: 2px solid rgb(81, 105, 129);
+  padding: 3px 3px 3px 3px;
+  margin-top: 3%;
+  margin-right: 25%;
+  margin-bottom: 2%;
+}
+
+.quanity {
+  padding: 8px;
+}
+
+.form1,
+.form2,
+.form3 {
+  color: rgb(8, 46, 85);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  list-style-type: none;
+  padding: 20px;
+  box-sizing: content-box;
+  border: 8px solid rgb(87, 18, 50);
+  border-radius: 20px;
+}
+
+.toys {
+  margin-bottom: 2%;
+}
+
+/* End of ContactUs */
+
+/* Footer */
+
+footer.copyright {
+  background-color: rgb(77, 113, 150);
+  line-height: 0.2;
+  color: rgb(92, 35, 35);
+  border-style: double;
+}
