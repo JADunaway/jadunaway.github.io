@@ -1,0 +1,197 @@
+/*Dependent Class*/
+/* design.html */
+body.home {
+  background-color: rgb(223, 210, 194);
+  min-width: 1080px;
+  max-width: 1500px;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border {
+  border-style: double;
+  border-color: #3e425a;
+  border-width: 5px 5px;
+  text-align: center;
+  color: #242924;
+}
+
+.showcase {
+  text-align: left;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #242924;
+  padding: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.ideas {
+  font-size: 25px;
+  color: #404e40;
+}
+
+.design {
+  display: inline-block;
+}
+
+.alignment {
+  text-align: left;
+  display: inline-block;
+}
+
+.ul5 {
+  text-align: left;
+  display: inline-block;
+}
+
+/* Footer */
+
+.copyright {
+  background-color: #e6efdc;
+  line-height: 0.2;
+  border-style: double;
+  border-color: #3e425a;
+  border-width: 5px 5px;
+  text-align: left;
+  color: #242924;
+  font-size: 12px;
+}
+/* end design.html */
+
+/* portfolio.html */
+
+.video {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  margin-left: 285px;
+  margin-right: 285px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  box-shadow: 20px 20px 40px #cca9a9;
+}
+
+.portfolio {
+  background-color: rgb(86, 98, 110);
+  min-width: 1080px;
+  max-width: 1500px;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border1 {
+  border-style: double;
+  border-color: #020727;
+  border-width: 5px 5px;
+  text-align: center;
+  color: rgb(228, 199, 163);
+}
+
+.showcase1 {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: rgb(228, 199, 163);
+  padding: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+ul {
+  text-align: center;
+  display: inline-block;
+}
+
+li span {
+  position: relative;
+  left: -178px;
+}
+
+/* end of portfolio.html */
+
+/* index.html achivements */
+
+.background {
+  background-color: #879287;
+  min-width: 1080px;
+  max-width: 1500px;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.achievements {
+  border-style: double;
+  border-color: #020727;
+  /* border-width: 5px 5px; */
+  text-align: center;
+  color: rgb(9, 10, 12);
+  font-size: 25px;
+  margin-top: 2px;
+}
+
+.showcase2 {
+  text-align: left;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: rgb(228, 199, 163);
+  padding: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.img {
+  float: right;
+  padding-bottom: 15px;
+}
+
+.img2 {
+  padding-top: 500px;
+}
+
+.ul {
+  text-align: left;
+  display: inline-block;
+  border-style: double;
+  border-color: #020727;
+  border-width: 5px 5px;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: rgb(228, 199, 163);
+}
+
+.contact {
+  background-color: #6c776c;
+  line-height: 0.2;
+  border-style: double;
+  border-color: #020727;
+  border-width: 5px 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  color: rgb(29, 26, 46);
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.copyright1 {
+  background-color: #6c776c;
+  line-height: 0.2;
+  border-style: double;
+  border-color: #020727;
+  border-width: 5px 5px;
+  text-align: left;
+  color: rgb(29, 26, 46);
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.sharp {
+  color: rgb(9, 10, 12);
+}
+
+/* end of index.html */
